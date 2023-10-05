@@ -1,0 +1,24 @@
+.form-check {
+    margin-top: 20px;
+}
+
+td:has(label input[type="radio"]){
+    display: flex;
+    margin-top: 20px;
+}
+
+label:has(input[type="radio"]) {
+    margin-right: 20px;
+}
+
+.form-table th {
+    width: 120px;
+}
+
+@media only screen and (min-width: 783px) {
+
+  .form-check:first-child {
+    margin: 0;
+  }
+}
+
